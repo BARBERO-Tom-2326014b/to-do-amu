@@ -1,0 +1,16 @@
+.Footer{
+    justify-content: space-between !important; /* Un bouton à gauche, l'autre à droite */
+    padding: 10px; /* Ajoute un peu d'espace autour des éléments */
+}
+
+button {
+    padding: 10px 20px; /* Ajoute du padding à l'intérieur des boutons */
+    font-size: 16px; /* Taille du texte des boutons */
+    border: 1px solid #ccc; /* Bordure des boutons */
+    background-color: #f0f0f0; /* Couleur de fond des boutons */
+    cursor: pointer; /* Change le curseur en pointeur au survol */
+}
+
+button:hover {
+    background-color: #ddd; /* Change la couleur de fond au survol */
+}

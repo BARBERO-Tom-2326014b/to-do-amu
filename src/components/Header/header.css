@@ -1,0 +1,20 @@
+.Header {}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0066cc; /* Bleu */
+    color: white;
+}
+
+/* Style du titre */
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+}
+
+.infoTache{
+
+}

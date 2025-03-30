@@ -1,24 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/Taches/taches.css';
+import Header from "./components/Header/Header";
+import Taches from "./components/Taches/Taches";
+import Footer from "./components/Footer/Footer";
+import todo from './todos.json';
+
+
+
+
+
+
 
 function App() {
+    const taches = todo.taches;
+
+    const categorie = todo.categories;
+    const relation = todo.relations;
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+
+        <Header taches={taches}/>
+
+        <Taches taches={taches} categorie={categorie} relation={relation} />
+
+
+      </>
   );
 }
 
